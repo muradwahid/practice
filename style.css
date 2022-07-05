@@ -4,7 +4,8 @@ body{
 }
 h1{
     font-size: 50px;
-    margin: 10px;
+    margin-bottom: 5px;
+    margin-left:0px;
     color: #575757;
 }
 p{
@@ -39,7 +40,7 @@ section{
 }
 .order-btn{
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     border-radius:50px;
     box-shadow: grey 1px 1px 10px 0px;
     color: whitesmoke;
@@ -49,9 +50,6 @@ section{
     width: 100px;
     text-decoration: none;
     background-image: linear-gradient(#048BF7,#12c1e0);
-}
-.margin a{
-    margin-top: 5;
 }
 .about-sec{
     background-image: url(images/shapes/7.png);
@@ -64,4 +62,31 @@ section{
 }
 .about img{
     width: 100%;
+}
+.d-txt{
+    margin: 0 auto;
+    text-align: center;
+    width: 42%;
+    padding: 0 0 20px 25px;
+}
+.d-txt p{
+    color: #AEAEAE;
+}
+.flexible{
+    display: flex;
+    width: 50%;
+    box-shadow: grey 1px 1px 20px 0px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.flexible .recipie h1,p{
+    color: black;
+}
+.flexible .recipie{
+    width: 100%;
+    padding: 25px;
+}
+.recipie img{
+    width: 100%;
+    border-radius: 5px;
 }
