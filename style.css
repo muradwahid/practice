@@ -8,6 +8,10 @@ h1{
     margin-left:0px;
     color: #575757;
 }
+h2{
+    color: #575757;
+    font-size: 35px;
+}
 p{
     color: #AEAEAE;
 }
@@ -33,7 +37,7 @@ section{
 }
 .margin p{
     width: 400px;
-    margin-left: 12px;
+    margin-left: 3px;
 }
 .food-div img{
     width: 700px;
@@ -68,6 +72,7 @@ section{
     text-align: center;
     width: 42%;
     padding: 0 0 20px 25px;
+    margin-top: -100px;
 }
 .d-txt p{
     color: #AEAEAE;
@@ -75,6 +80,7 @@ section{
 .flexible{
     display: flex;
     width: 50%;
+    height: 530px;
     box-shadow: grey 1px 1px 20px 0px;
     margin-left: 20px;
     border-radius: 10px;
@@ -87,6 +93,39 @@ section{
     padding: 25px;
 }
 .recipie img{
+    height: 285px;
     width: 100%;
     border-radius: 5px;
+}
+.social-folo{
+    display: flex;
+    box-shadow: grey 1px 1px 20px 0px;
+    width: 1170px;
+    margin-left: 102px;
+    margin-top: -45px;
+    height: 183px;
+    border-radius: 10px;
+}
+.social-folo .folowers{
+    width: 30%;
+    text-align: center;
+    margin-left: 30px;
+    display: block;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+footer h2{
+    color: #454649;
+    padding-top: 50px;
+    padding-bottom:18px;
+}
+footer span{
+    color: #FB984C;
+}
+footer p{
+    color: whitesmoke;
 }
